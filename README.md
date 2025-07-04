@@ -1,101 +1,98 @@
-# 🌿 GreenThumb
+# 🤖 AI Visionary
 
-**GreenThumb** is an open-source plant care tracker designed for gardeners of all skill levels. It helps you schedule watering, track sunlight needs, and manage your plant collection — all in a beautiful and simple web interface.
+**AI Visionary** is an open-source computer vision toolkit that leverages state-of-the-art AI and machine learning models to perform image classification, object detection, and real-time video analysis.
 
 ---
 
 ## 📚 Table of Contents
 
-- [📦 Installation](#-installation)
-- [🚀 Usage](#-usage)
-- [🤝 Contributing](#-contributing)
-- [🙌 Credits](#-credits)
-- [📝 License](#-license)
+- [🚀 Features](#-features)
+- [🛠️ Technologies Used](#-technologies-used)
+- [🐞 Known Bugs](#-known-bugs)
+- [👥 Contributors](#-contributors)
+- [⚙️ Installation](#-installation)
+- [🎯 Usage](#-usage)
+- [📄 License](#-license)
 
 ---
 
-## 📦 Installation
+## 🚀 Features
 
-You can run GreenThumb locally in just a few steps:
+- Image classification with pre-trained deep learning models  
+- Real-time object detection using YOLOv5  
+- Support for video stream analysis  
+- Model training and fine-tuning utilities  
+- Data augmentation tools for improved model accuracy  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- TensorFlow & Keras  
+- PyTorch  
+- OpenCV  
+- NumPy & Pandas  
+- Flask (for serving models via API)  
+
+---
+
+## 🐞 Known Bugs
+
+- Model accuracy drops on low-light images  
+- Video stream lag under high resolution  
+- Occasional memory leaks during training on large datasets  
+- UI does not auto-refresh after model update  
+- Installation issues on Windows 7  
+
+---
+
+## 👥 Contributors
+
+- [@NokDev](https://github.com/NokDev)  
+- [@OpenAIUser](https://github.com/OpenAIUser)  
+- [@DataSciencePro](https://github.com/DataSciencePro)  
+
+---
+
+## ⚙️ Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/greenthumb.git
-   cd greenthumb
+   git clone https://github.com/your-username/ai-visionary.git
+   cd ai-visionary
+Create and activate a virtual environment:
+
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install dependencies:
 
 bash
 Copy
 Edit
-npm install
-Start the development server:
+pip install -r requirements.txt
+🎯 Usage
+To run image classification on a sample image:
 
 bash
 Copy
 Edit
-npm run dev
-🖼️ Installation Demo
-
-🚀 Usage
-Once you're running GreenThumb:
-
-🪴 Add plants with names, images, and care schedules
-
-💧 Get reminders when it's time to water or move them to the sun
-
-📈 Track growth and health logs
-
-☁️ All data is stored locally in your browser (or synced via GitHub login if configured)
+python classify.py --image path/to/image.jpg
+To start the real-time object detection server:
 
 bash
 Copy
 Edit
-npm run dev
-Then open your browser at:
-http://localhost:3000
-
-## 🤝 Contributing
-All contributions are welcome!
-
-To contribute:
-Fork this repository
-
-Create a new branch:
+python app.py
+For training a new model:
 
 bash
 Copy
 Edit
-git checkout -b feature/add-plant-tags
-Make your changes
+python train.py --dataset path/to/dataset
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Commit and push:
-
-bash
-Copy
-Edit
-git commit -m "Added plant tag support"
-git push origin feature/add-plant-tags
-Open a Pull Request
-
-📌 Please follow the code style and leave comments when needed!
-
-## 🙌 Credits
-This project wouldn’t be possible without:
-
-@your-username — Project Creator
-
-Unsplash API — Plant images
-
-React — Frontend Framework
-
-Tailwind CSS — UI Styling
-
-Special thanks to all plant lovers who tested early versions 🌱
-
-## 📝 License
-MIT License
-
-This project is free to use, modify, and share.
-See the LICENSE file for more details.
-
-Grow plants. Grow skills. Grow together. 🌼
